@@ -14,6 +14,6 @@ or a regulated solicitor.
 
 ## This repository
 
-This repository holds only the built site in `public/`, deployed to GitHub Pages on
-every push to `master`. The source and authoring pipeline live in a separate, private
-repository.
+This repository holds the built site in `public/`, deployed to GitHub Pages on every
+push to `master`, and the `open-pr` skill used to submit each build. The source and
+authoring pipeline live in a separate, private repository.
