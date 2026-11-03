@@ -1,1 +1,0 @@
-import{t as e}from"./analytics.C4Ty5T50.js";e.capture(`card_shown`,{topic:location.pathname.split(`/`).filter(Boolean).pop()}),document.addEventListener(`click`,t=>{let n=t.target.closest(`a.srclink, a.citechip`);n&&e.capture(`citation_clicked`,{topic:location.pathname.split(`/`).filter(Boolean).pop(),url:n.href})});
