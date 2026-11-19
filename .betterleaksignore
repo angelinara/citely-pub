@@ -1,0 +1,4 @@
+# PostHog project keys (phc_) in built analytics bundles. These are public,
+# write-only ingestion keys that PostHog intends to ship in client-side JS.
+bdb845cb28cb41dfa2724769e6c8f7c2e506afcd:public/_astro/analytics.C4Ty5T50.js:posthog-project-api-key:2
+52ce216034f68709411e3e4bc94d863b0c0c0908:public/_astro/analytics.BIkkpxja.js:posthog-project-api-key:2
