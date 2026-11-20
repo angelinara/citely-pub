@@ -1,0 +1,5 @@
+#!/bin/sh
+# stop at the first failure; without this only the last command's exit status blocks the push
+set -e
+
+betterleaks git --no-banner
