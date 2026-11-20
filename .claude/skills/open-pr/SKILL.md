@@ -82,11 +82,9 @@ not as a restatement of file names.
 - **Commit message** — Conventional Commits (`type(scope): subject`), matching the
   repository's existing history (`feat`, `fix`, `style`, `docs`, …). One line that
   names what changed and why; a short body only if the change genuinely needs it.
-  End the message with:
-
-  ```
-  Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
-  ```
+  End the message with a `Co-Authored-By` trailer naming the model you are
+  actually running as — or, if Claude Code supplies attribution lines, use those
+  exactly. Never copy a model name from an example or an earlier commit.
 
 - **PR title** — the same substance as the commit subject, readable on its own in a
   PR list.
